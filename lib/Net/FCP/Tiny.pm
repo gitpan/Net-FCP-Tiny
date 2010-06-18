@@ -3,7 +3,7 @@ BEGIN {
   $Net::FCP::Tiny::AUTHORITY = 'cpan:AVAR';
 }
 BEGIN {
-  $Net::FCP::Tiny::VERSION = '0.02';
+  $Net::FCP::Tiny::VERSION = '0.03';
 }
 use strict;
 use warnings;
@@ -71,7 +71,7 @@ __END__
 
 =head1 NAME
 
-Net:FCP::Tiny - A Tiny and incomplete interface to the Freenet Client Protocol (FCPv2)
+Net::FCP::Tiny - A Tiny and incomplete interface to the Freenet Client Protocol (FCPv2)
 
 =head1 SYNOPSIS
 

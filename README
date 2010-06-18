@@ -1,5 +1,5 @@
 NAME
-    Net:FCP::Tiny - A Tiny and incomplete interface to the Freenet Client
+    Net::FCP::Tiny - A Tiny and incomplete interface to the Freenet Client
     Protocol (FCPv2)
 
 SYNOPSIS

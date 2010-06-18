@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     'Exporter' => '0',
     'IO::Socket::INET' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }
