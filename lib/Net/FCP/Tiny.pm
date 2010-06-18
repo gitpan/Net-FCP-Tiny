@@ -3,7 +3,7 @@ BEGIN {
   $Net::FCP::Tiny::AUTHORITY = 'cpan:AVAR';
 }
 BEGIN {
-  $Net::FCP::Tiny::VERSION = '0.01';
+  $Net::FCP::Tiny::VERSION = '0.02';
 }
 use strict;
 use warnings;
@@ -23,6 +23,9 @@ sub new {
         Proto    => 'tcp',
         Blocking => 1,
     );
+
+    # Couldn't connect
+    return unless $args{sock};
 
     my $self = bless \%args => $pkg;
 

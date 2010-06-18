@@ -1,5 +1,9 @@
 Revision history for Net::FCP::Tiny
 
+0.02 2010-06-18 16:22:37
+
+	- return() if we can't open a socket to talk with Freenet
+
 0.01 2010-06-18 13:06:36
 
     - Initial release

@@ -26,5 +26,5 @@ resources:
   homepage: http://search.cpan.org/dist/Net-FCP-Tiny/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/avar/net-fcp-tiny.git
-version: 0.01
+version: 0.02
 x_authority: cpan:AVAR
